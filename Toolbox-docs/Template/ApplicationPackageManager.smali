@@ -24,6 +24,7 @@
 
     move-result v0
 
+    ###Kousei added
     invoke-static {p1, p2, v0}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeaturesV1(Ljava/lang/String;IZ)Z
 
     move-result v0
@@ -87,6 +88,7 @@
 
     move-result v1
 
+    ###Kousei added
     invoke-static {p1, v1}, Lcom/android/internal/util/kaorios/ToolboxUtils;->KaoriosFeaturesV2(Ljava/lang/String;Z)Z
 
     move-result v1
